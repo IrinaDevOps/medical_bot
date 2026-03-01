@@ -1,0 +1,26 @@
+# Конфиденциальные данные
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Логи
+log/
+*.log
+
+# Данные (могут содержать персональные данные пациентов)
+data/patients.json
+data/staff.json
+data/reminders.json
+patient_reports/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
